@@ -1,0 +1,42 @@
+input, textarea {
+  font-size: 1rem !important;
+}
+
+p, strong, span, .display-7 {
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+}
+
+.display-2 {
+  line-height: 1.25 !important;
+}
+
+.display-4 {
+  font-size: 1rem !important;
+  line-height: 1.5;
+}
+
+.cid-uPhV2TD8My .item-wrapper {
+  padding: 1rem 2.25rem 1rem 2.25rem !important;
+}
+
+.cid-uPxck6qxJ5 ul.list li:not(:last-child) {
+  margin-bottom: 12px !important;
+}
+
+.cid-uPiqnEp5Fi .social-row .soc-item a .mbr-iconfont {
+  font-size: 2rem !important;
+}
+
+.cid-uPwXO0sxN8 .card-text strong {
+  font-size: 1.3rem !important;
+}
+
+@media (max-width: 767px) {
+  .cid-uPigtACuxd {
+    padding-top: 6rem !important;
+  }
+  .btn {
+    padding: 0.75rem 1.5rem !important;
+  }
+}
