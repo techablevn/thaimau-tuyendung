@@ -753,15 +753,20 @@
                       required
                     />
                   </div>
-                  <div class="col-12 form-group mb-3 mb-3" data-for="registerNote">
-                    <textarea
-                      name="registerNote"
-                      placeholder="Vị trí và cửa hàng bạn muốn ứng tuyển!"
-                      data-form-field="registerNote"
-                      class="form-control"
-                      id="registerNote"
+                  <div class="col-12 form-group mb-3 mb-3" data-for="registerPosition">
+                    <select
+                      name="registerPosition"
+                      data-form-field="registerPosition"
+                      class="form-select form-control"
+                      id="registerPosition"
                       required
-                    ></textarea>
+                    >
+                      <option value="" selected>Vị trí và cửa hàng bạn muốn ứng tuyển!</option>
+                      <option value="Nhân viên Nhà hàng - Full-time">Nhân viên Nhà hàng - Full-time</option>
+                      <option value="Nhân viên Nhà hàng - Part-time">Nhân viên Nhà hàng - Part-time</option>
+                      <option value="Nhân viên phụ bếp - Full-time">Nhân viên phụ bếp - Full-time</option>
+                      <option value="Quản lý nhà hàng (SM)">Quản lý nhà hàng (SM)</option>
+                    </select>
                   </div>
                   <div
                     class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"
@@ -999,7 +1004,8 @@
             // Thành công
             Swal.fire({
               icon: "success",
-              title: "Cảm ơn bạn đã hoàn tất đăng ký. Chúng tôi sẽ chủ động liên hệ với bạn trong vòng 03 ngày làm việc để trao đổi và sắp xếp bước tiếp theo. Rất mong được gặp bạn tại Đông Nguyên!",
+              title: "Cảm ơn bạn đã hoàn tất đăng ký!",
+              text: "Chúng tôi sẽ chủ động liên hệ với bạn trong vòng 03 ngày làm việc để trao đổi và sắp xếp bước tiếp theo. Rất mong được gặp bạn tại Đông Nguyên!",
               confirmButtonText: "Đóng",
             });
 
