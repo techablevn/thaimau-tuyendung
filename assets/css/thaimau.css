@@ -37,6 +37,11 @@ p, strong, span, .display-7 {
   width: auto;
 }
 
+.cid-tJS6tZXiPa .navbar.navbar-short .navbar-logo img {
+  height: 5rem;
+  width: auto;
+}
+
 @media (max-width: 767px) {
   .cid-uPigtACuxd {
     padding-top: 6rem !important;
