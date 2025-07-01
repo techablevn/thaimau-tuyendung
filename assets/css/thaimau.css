@@ -1,4 +1,4 @@
-input, textarea, select {
+input, textarea, select, .form-control {
   font-size: 1rem !important;
 }
 
