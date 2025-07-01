@@ -684,7 +684,8 @@
                 action="https://mobirise.eu/"
                 method="POST"
                 class="mbr-form form-with-styler"
-                data-form-title="Form Name"
+                data-form-title="Form Name" 
+                id="myFormRegister"
               >
                 <!--input
                   type="hidden"
@@ -713,53 +714,53 @@
                 <div class="dragArea row">
                   <div
                     class="col-md col-sm-12 form-group mb-3 mb-3"
-                    data-for="name"
+                    data-for="registerName"
                   >
                     <input
                       type="text"
-                      name="name"
+                      name="registerName"
                       placeholder="Họ và tên"
                       data-form-field="name"
                       class="form-control"
                       value=""
-                      id="name-form03-26"
+                      id="registerName"
                       required
                     />
                   </div>
                   <div
                     class="col-md col-sm-12 form-group mb-3 mb-3"
-                    data-for="email"
+                    data-for="registerEmail"
                   >
                     <input
                       type="email"
-                      name="email"
+                      name="registerEmail"
                       placeholder="Email"
                       data-form-field="email"
                       class="form-control"
                       value=""
-                      id="email-form03-26"
+                      id="registerEmail"
                       required
                     />
                   </div>
-                  <div class="col-12 form-group mb-3 mb-3" data-for="phone">
+                  <div class="col-12 form-group mb-3 mb-3" data-for="registerPhone">
                     <input
                       type="tel"
-                      name="phone"
+                      name="registerPhone"
                       placeholder="Số điện thoại"
                       data-form-field="phone"
                       class="form-control"
                       value=""
-                      id="phone-form03-26"
+                      id="registerPhone"
                       required
                     />
                   </div>
-                  <div class="col-12 form-group mb-3 mb-3" data-for="textarea">
+                  <div class="col-12 form-group mb-3 mb-3" data-for="registerNote">
                     <textarea
-                      name="textarea"
+                      name="registerNote"
                       placeholder="Vị trí và cửa hàng bạn muốn ứng tuyển!"
                       data-form-field="textarea"
                       class="form-control"
-                      id="textarea-form03-26"
+                      id="registerNote"
                       required
                     ></textarea>
                   </div>
@@ -966,7 +967,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
       document
-        .getElementById("myForm")
+        .getElementById("myFormRegister")
         .addEventListener("submit", async function (e) {
           e.preventDefault(); // Ngăn gửi form mặc định
 
